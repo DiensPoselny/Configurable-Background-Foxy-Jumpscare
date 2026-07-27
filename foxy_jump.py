@@ -10,9 +10,7 @@ from PyQt6.QtWidgets import QApplication, QVBoxLayout, QWidget
 
 # --- KONFIGURACE ---
 VIDEO_NAME = "foxy1.mp4"  # Jméno souboru s videem
-CHECK_INTERVAL_SECONDS = (
-    300  # Doba, po které proběhne kontrola (300 = 5 minut)
-)
+CHECK_INTERVAL_SECONDS = 300  # Doba, po které proběhne kontrola (300 sekund = 5 minut)
 CHANCE_PER_CHECK = 0.2  # Šance na jumpscare při každé kontrole (0.2 = 20 %)
 
 
