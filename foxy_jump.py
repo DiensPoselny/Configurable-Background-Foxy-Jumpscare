@@ -6,7 +6,7 @@ import keyboard
 from PyQt6.QtCore import Qt, QTimer, QUrl
 from PyQt6.QtMultimedia import QAudioOutput, QMediaPlayer
 from PyQt6.QtMultimediaWidgets import QVideoWidget
-from PyQt6.QtWidgets import QApplication, QWidget
+from PyQt6.QtWidgets import QApplication, QVBoxLayout, QWidget
 
 # --- KONFIGURACE ---
 VIDEO_NAME = "foxy1.mp4"  # Jméno souboru s videem
