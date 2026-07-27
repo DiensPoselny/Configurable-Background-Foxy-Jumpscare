@@ -1,10 +1,18 @@
 ## Description:
-- fully configurable app that runs silently on your computer and triggers Fnaf2 Foxy jumpscare
-- made with 1 python script and bat file for quick startup
-- the video played can be easily changed
+- app that runs silently on your computer and triggers Fnaf2 Foxy jumpscare
+- made with 1 python script that has been compressed to .exe file for easy startup
+- it doesnt open any extra console window that reveals the trick (can be only seen in background processes in task manager)
 
-## Configuration:
-### the whole app can be configured at the start of the python script
-- *VIDEO_NAME* - points to the video played when triggered
-- *CHECK_INTERVAL_SECONDS* - time, after the app can trigger a jumpscare in seconds (base: 300 = 5min.)
-- *CHANCE_PER_CHECK* - chance of the jumpscare happening after each time interval (base: 0.2 = 20%)
+- the base is set to roll for a *20% chance of jumpscare every 5 minutes*
+
+## Setup
+### Starting the app
+1. download the *foxy_jump.exe* file
+2. open the file
+3. enjoy
+
+### Closing the app
+
+- press *Ctrl + Alt + K* to close the app
+- or just end the task in task manager
+
